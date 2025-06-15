@@ -5,7 +5,7 @@
 <p align="center">
   🎓 MSc in Software, Web & Cloud | Tampere University, Finland  
   <br>
-  🔬 Passionate about AI for Health, Fairness in Recommender Systems, and NLP  
+  🔬 Research Assistant @ GPT-Lab | AI Fairness, NLP, and Biomedical AI  
   <br>
   📫 <a href="mailto:abrar.morshed@tuni.fi">abrar.morshed@tuni.fi</a> • 📍 Tampere, Finland
 </p>
@@ -14,9 +14,10 @@
 
 ### 🚀 About Me
 
-- 👨‍🏫 Teaching Assistant @ Tampere University – software product/process management & GitLab/GitHub practices.
-- 🔍 Currently seeking a **research assistantship / PhD opportunity** focused on AI or NLP.
-- 🧠 Ex–Project Manager & Backend Developer with 4+ years in MIS and data-driven application design.
+- 👨‍🔬 **Research Assistant** at [GPT-Lab, Tampere University](https://www.tuni.fi) (since June 2025)  
+  Working on explainability and fairness in AI systems, with focus on recommender systems and medical data.
+- 👨‍🏫 Teaching Assistant – software product/process management & GitLab/GitHub practices.
+- 🧠 Ex–Project Manager & Backend Developer with 4+ years in MIS and data-driven applications.
 - 🧪 Researcher in **AI-based biological aging, ECG analysis, and contract analytics**.
 
 ---
@@ -66,5 +67,4 @@
 - 📹 [YouTube](https://www.youtube.com/@AbrarMorshed-lx4df)
 
 ---
-
 
