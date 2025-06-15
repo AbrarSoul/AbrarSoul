@@ -15,10 +15,10 @@
 ### 🚀 About Me
 
 - 👨‍🔬 **Research Assistant** at [GPT-Lab, Tampere University](https://www.tuni.fi) (since June 2025)  
-  Working on explainability and fairness in AI systems, with focus on recommender systems and medical data.
+  Working on AI agentic frameworks.
 - 👨‍🏫 Teaching Assistant – software product/process management & GitLab/GitHub practices.
 - 🧠 Ex–Project Manager & Backend Developer with 4+ years in MIS and data-driven applications.
-- 🧪 Researcher in **AI-based biological aging, ECG analysis, and contract analytics**.
+- 🧪 Researcher in **Generative AI**.
 
 ---
 
