@@ -5,7 +5,7 @@
 <p align="center">
   🎓 MSc in Software, Web & Cloud | Tampere University, Finland  
   <br>
-  🔬 Research Assistant @ GPT-Lab | AI Fairness, NLP, and Biomedical AI  
+  🔬 Research Assistant @ GPT-Lab | AI Agentic Frameworks  
   <br>
   📫 <a href="mailto:abrar.morshed@tuni.fi">abrar.morshed@tuni.fi</a> • 📍 Tampere, Finland
 </p>
