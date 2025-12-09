@@ -29,7 +29,7 @@
           self.university = "Tampere University, Finland"
           self.location = "📍 Tampere, Finland"
           self.email = "abrar.morshed@tuni.fi"
-          self.role = "Research Assistant@GPT-Lab(Tampere University)"
+          self.role = "Research Assistant@GPT-Lab (Tampere University)"
           self.research_focus = "AI Agentic Frameworks & Generative AI"
           self.experience = "4+ years in MIS & Backend Development"
       
