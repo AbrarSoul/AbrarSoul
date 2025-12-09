@@ -1,17 +1,28 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+my+GitHub+Profile!;MSc+in+Software,+Web+%26+Cloud;Research+Assistant+@+GPT-Lab;AI+%26+Machine+Learning+Enthusiast&center=true&width=500&height=50&size=30&color=00D9FF&vCenter=true&pause=1000">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+my+GitHub+Profile!;MSc+in+Software,+Web+%26+Cloud;Research+Assistant+@+GPT-Lab;AI+%26+Machine+Learning+Enthusiast&center=true&width=700&height=50&size=28&color=00D9FF&vCenter=true&pause=1000">
 </div>
 
 ---
 
 <div align="center">
   
-  ![Profile Views](https://komarev.com/ghpvc/?username=AbrarSoul&color=00D9FF&style=for-the-badge&label=PROFILE+VIEWS)
+  <img src="https://visitcount.itsvg.in/api?id=AbrarSoul&label=Profile%20Views&color=00D9FF&icon=0&pretty=true" alt="Profile Views" />
   
-  [![GitHub followers](https://img.shields.io/github/followers/AbrarSoul?style=for-the-badge&logo=github&color=00D9FF)](https://github.com/AbrarSoul)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abrar-morshed-4442911a1/)
-  [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Abrar_Morshed/)
-  [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@AbrarMorshed-lx4df)
+  <br>
+  <br>
+  
+  <a href="https://github.com/AbrarSoul?tab=followers">
+    <img src="https://img.shields.io/github/followers/AbrarSoul?label=GitHub%20Followers&style=for-the-badge&logo=github&logoColor=white&color=181717&labelColor=181717" alt="GitHub Followers" />
+  </a>
+  <a href="https://www.linkedin.com/in/abrar-morshed-4442911a1/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn" />
+  </a>
+  <a href="https://leetcode.com/u/Abrar_Morshed/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=000000&labelColor=FFA116" alt="LeetCode" />
+  </a>
+  <a href="https://www.youtube.com/@AbrarMorshed-lx4df">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=FF0000" alt="YouTube" />
+  </a>
   
 </div>
 
