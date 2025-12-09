@@ -19,41 +19,37 @@
 
 ## 👨‍💻 About Me
 
-<div align="center">
-  
-  ```python
-  class AbrarMorshed:
-      def __init__(self):
-          self.name = "Abrar Morshed"
-          self.education = "MSc in Software, Web & Cloud"
-          self.university = "Tampere University, Finland"
-          self.location = "📍 Tampere, Finland"
-          self.email = "abrar.morshed@tuni.fi"
-          self.role = "Research Assistant@GPT-Lab (Tampere University)"
-          self.research_focus = "AI Agentic Frameworks & Generative AI"
-          self.experience = "4+ years in MIS & Backend Development"
-      
-      def current_work(self):
-          return {
-              "position": "Research Assistant",
-              "organization": "GPT-Lab, Tampere University",
-              "since": "June 2025",
-              "focus": "AI agentic frameworks",
-              "teaching": "Software product/process management & GitLab/GitHub practices"
-          }
-      
-      def interests(self):
-          return [
-              "🤖 Artificial Intelligence",
-              "🧠 Machine Learning",
-              "☁️ Cloud Computing",
-              "🔬 Research & Development",
-              "📊 Data Science",
-              "🌐 Full-Stack Development"
-          ]
-  ```
-
-</div>
+```python
+class AbrarMorshed:
+    def __init__(self):
+        self.name = "Abrar Morshed"
+        self.education = "MSc in Software, Web & Cloud"
+        self.university = "Tampere University, Finland"
+        self.location = "📍 Tampere, Finland"
+        self.email = "abrar.morshed@tuni.fi"
+        self.role = "Research Assistant@GPT-Lab (Tampere University)"
+        self.research_focus = "AI Agentic Frameworks & Generative AI"
+        self.experience = "4+ years in MIS & Backend Development"
+    
+    def current_work(self):
+        return {
+            "position": "Research Assistant",
+            "organization": "GPT-Lab, Tampere University",
+            "since": "June 2025",
+            "focus": "AI agentic frameworks",
+            "teaching": "Software product/process management & GitLab/GitHub practices"
+        }
+    
+    def interests(self):
+        return [
+            "🤖 Artificial Intelligence",
+            "🧠 Machine Learning",
+            "☁️ Cloud Computing",
+            "🔬 Research & Development",
+            "📊 Data Science",
+            "🌐 Full-Stack Development"
+        ]
+```
 
 ---
 
