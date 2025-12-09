@@ -334,6 +334,6 @@ class AbrarMorshed:
 
 <div align="center">
   
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Thanks+for+visiting!;Feel+free+to+reach+out+for+collaboration&center=true&width=500&height=50&size=25&color=00D9FF&vCenter=true&pause=1000">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Thanks+for+visiting!;Feel+free+to+reach+out+for+collaboration&center=true&width=700&height=50&size=24&color=00D9FF&vCenter=true&pause=1000">
   
 </div>
