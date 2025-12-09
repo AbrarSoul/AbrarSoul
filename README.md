@@ -6,14 +6,11 @@
 
 <div align="center">
   
-  <img src="https://visitcount.itsvg.in/api?id=AbrarSoul&label=Profile%20Views&color=00D9FF&icon=0&pretty=true" alt="Profile Views" />
+  ![Profile Views](https://komarev.com/ghpvc/?username=AbrarSoul&color=00D9FF&style=for-the-badge&label=PROFILE+VIEWS)
   
   <br>
   <br>
   
-  <a href="https://github.com/AbrarSoul?tab=followers">
-    <img src="https://img.shields.io/github/followers/AbrarSoul?label=GitHub%20Followers&style=for-the-badge&logo=github&logoColor=white&color=181717&labelColor=181717" alt="GitHub Followers" />
-  </a>
   <a href="https://www.linkedin.com/in/abrar-morshed-4442911a1/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn" />
   </a>
