@@ -121,19 +121,19 @@ class AbrarMorshed:
 
 <div align="center">
   
-  <img src="https://streak-stats.demolab.com/?user=AbrarSoul&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AbrarSoul&theme=tokyonight" alt="GitHub Streak" />
   
 </div>
 
 <div align="center">
   
-  <img src="https://github-profile-trophy.vercel.app/?username=AbrarSoul&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7&hide_border=true" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=AbrarSoul&theme=tokyonight" alt="GitHub Trophies" />
   
 </div>
 
 <div align="center">
   
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AbrarSoul&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area=true&custom_title=Abrar%20Morshed's%20Contribution%20Graph&hide_border=true" alt="GitHub Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AbrarSoul&theme=tokyo-night&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area=true" alt="GitHub Activity Graph" />
   
 </div>
 
