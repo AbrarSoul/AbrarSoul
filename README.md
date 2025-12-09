@@ -146,26 +146,27 @@ class AbrarMorshed:
   <table>
     <tr>
       <td width="50%">
-        <h3 align="center">💬 Sentiment Analysis with NLP</h3>
+        <h3 align="center">🛡️ Agentic Code Security Auto-Fixer</h3>
         <div align="center">
           <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-          <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-          <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
+          <img src="https://img.shields.io/badge/AI-FF6F00?style=for-the-badge&logo=openai&logoColor=white" />
+          <img src="https://img.shields.io/badge/Security-4A90E2?style=for-the-badge&logo=shield&logoColor=white" />
         </div>
         <p align="center">
-          <a href="https://github.com/AbrarSoul/AI-Powered-Sentiment-Analysis-with-React-Flask">
+          <a href="https://github.com/AbrarSoul/Agentic-Code-Security-Auto-Fixer">
             <img src="https://img.shields.io/badge/🔗-View%20Project-00D9FF?style=for-the-badge" />
           </a>
         </p>
       </td>
       <td width="50%">
-        <h3 align="center">🧓 Biological Aging Prediction</h3>
+        <h3 align="center">🌤️ Agentic Weather Assistant</h3>
         <div align="center">
           <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-          <img src="https://img.shields.io/badge/AI/ML-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+          <img src="https://img.shields.io/badge/AI-FF6F00?style=for-the-badge&logo=brain&logoColor=white" />
+          <img src="https://img.shields.io/badge/API-00D9FF?style=for-the-badge&logo=api&logoColor=white" />
         </div>
         <p align="center">
-          <a href="https://github.com/AbrarSoul/AI-Based-Biological-Aging-Frailty-Prediction">
+          <a href="https://github.com/AbrarSoul/Agentic-Weather-Assistant">
             <img src="https://img.shields.io/badge/🔗-View%20Project-00D9FF?style=for-the-badge" />
           </a>
         </p>
@@ -173,10 +174,51 @@ class AbrarMorshed:
     </tr>
     <tr>
       <td width="50%">
-        <h3 align="center">📝 AI Contract Analyzer</h3>
+        <h3 align="center">📄 Abstract Finder</h3>
         <div align="center">
-          <img src="https://img.shields.io/badge/NLP-FF6F00?style=for-the-badge&logo=openai&logoColor=white" />
           <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+          <img src="https://img.shields.io/badge/NLP-FF6F00?style=for-the-badge&logo=text&logoColor=white" />
+          <img src="https://img.shields.io/badge/Research-4A90E2?style=for-the-badge&logo=book&logoColor=white" />
+        </div>
+        <p align="center">
+          <a href="https://github.com/AbrarSoul/Abstract-Finder">
+            <img src="https://img.shields.io/badge/🔗-View%20Project-00D9FF?style=for-the-badge" />
+          </a>
+        </p>
+      </td>
+      <td width="50%">
+        <h3 align="center">💻 Software Engineering Project</h3>
+        <div align="center">
+          <img src="https://img.shields.io/badge/Software%20Engineering-4A90E2?style=for-the-badge&logo=code&logoColor=white" />
+          <img src="https://img.shields.io/badge/Full%20Stack-00D9FF?style=for-the-badge&logo=stack&logoColor=white" />
+        </div>
+        <p align="center">
+          <a href="https://github.com/AbrarSoul/COMP.SE.610-620-Autumn-2024-Software-Engineering-Project-1-and-2">
+            <img src="https://img.shields.io/badge/🔗-View%20Project-00D9FF?style=for-the-badge" />
+          </a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%">
+        <h3 align="center">🧓 Biological Aging Prediction</h3>
+        <div align="center">
+          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+          <img src="https://img.shields.io/badge/AI/ML-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+          <img src="https://img.shields.io/badge/Healthcare-4A90E2?style=for-the-badge&logo=heart&logoColor=white" />
+        </div>
+        <p align="center">
+          <a href="https://github.com/AbrarSoul/AI-Based-Biological-Aging-Frailty-Prediction">
+            <img src="https://img.shields.io/badge/🔗-View%20Project-00D9FF?style=for-the-badge" />
+          </a>
+        </p>
+      </td>
+      <td width="50%">
+        <h3 align="center">📝 AI Supplier Contract Analyzer</h3>
+        <div align="center">
+          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+          <img src="https://img.shields.io/badge/NLP-FF6F00?style=for-the-badge&logo=openai&logoColor=white" />
+          <img src="https://img.shields.io/badge/AI-4A90E2?style=for-the-badge&logo=brain&logoColor=white" />
         </div>
         <p align="center">
           <a href="https://github.com/AbrarSoul/AI-Supplier-Contract-Analyzer-with-NLP">
@@ -184,19 +226,25 @@ class AbrarMorshed:
           </a>
         </p>
       </td>
-      <td width="50%">
-        <h3 align="center">❤️ ECG Data Analysis for CAD</h3>
-        <div align="center">
-          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-          <img src="https://img.shields.io/badge/Data%20Science-FF6F00?style=for-the-badge&logo=jupyter&logoColor=white" />
-        </div>
-        <p align="center">
-          <a href="https://github.com/AbrarSoul/ECG-data-analysis-to-detect-coronary-artery-disease-CAD-">
-            <img src="https://img.shields.io/badge/🔗-View%20Project-00D9FF?style=for-the-badge" />
-          </a>
-        </p>
-      </td>
     </tr>
+  </table>
+  
+  <br>
+  
+  <h3 align="center">🏛️ 3D Architectural Design - National Parliament Building</h3>
+  <div align="center">
+    <img src="https://img.shields.io/badge/3D%20Design-4A90E2?style=for-the-badge&logo=cube&logoColor=white" />
+    <img src="https://img.shields.io/badge/Architecture-00D9FF?style=for-the-badge&logo=building&logoColor=white" />
+    <img src="https://img.shields.io/badge/CAD-FF6F00?style=for-the-badge&logo=tools&logoColor=white" />
+  </div>
+  <p align="center">
+    <a href="https://github.com/AbrarSoul/3D-Architectural-Design-of-National-Parliament-Building-of-Bangladesh">
+      <img src="https://img.shields.io/badge/🔗-View%20Project-00D9FF?style=for-the-badge" />
+    </a>
+  </p>
+  
+  <table>
+    <tr>
   </table>
   
 </div>
