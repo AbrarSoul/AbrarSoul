@@ -289,14 +289,10 @@ class AbrarMorshed:
 
 ## 🎯 Current Focus
 
-<div align="center">
-  
-  - 🔬 **Research**: AI Agentic Frameworks at GPT-Lab
-  - 🧠 **Learning**: Advanced Machine Learning & Deep Learning
-  - 💻 **Building**: Full-stack applications with modern frameworks
-  - 📊 **Exploring**: Generative AI & Large Language Models
-  
-</div>
+- 🔬 **Research**: AI Agentic Frameworks at GPT-Lab
+- 🧠 **Learning**: Advanced Machine Learning & Deep Learning
+- 💻 **Building**: Full-stack applications with modern frameworks
+- 📊 **Exploring**: Generative AI & Large Language Models
 
 ---
 
@@ -304,7 +300,7 @@ class AbrarMorshed:
 
 <div align="center">
   
-  <img src="https://raw.githubusercontent.com/AbrarSoul/AbrarSoul/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  ![Snake animation](https://raw.githubusercontent.com/AbrarSoul/AbrarSoul/main/github-contribution-grid-snake.svg)
   
 </div>
 
@@ -330,7 +326,7 @@ class AbrarMorshed:
 
 <div align="center">
   
-  ![Visitor Count](https://profile-counter.glitch.me/AbrarSoul/count.svg)
+  <img src="https://komarev.com/ghpvc/?username=AbrarSoul&color=00D9FF&style=for-the-badge&label=VISITORS" alt="Visitor Count" />
   
 </div>
 
