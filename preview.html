@@ -1,10 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abrar Morshed — GitHub profile preview</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown-dark.min.css" />
+  <style>
+    :root {
+      --bg: #0d1117;
+      --panel: #010409;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --link: #4493f8;
+      --accent: #818cf8;
+    }
+    html[data-theme="light"] {
+      --bg: #ffffff;
+      --panel: #f6f8fa;
+      --border: #d0d7de;
+      --text: #1f2328;
+      --muted: #656d76;
+      --link: #0969da;
+      --accent: #4f46e5;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    .topbar {
+      height: 64px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 24px;
+      position: sticky;
+      top: 0;
+      background: rgba(13,17,23,.92);
+      backdrop-filter: blur(12px);
+      z-index: 10;
+    }
+    html[data-theme="light"] .topbar { background: rgba(255,255,255,.92); }
+    .brand { display: flex; gap: 10px; align-items: center; font-weight: 600; }
+    .brand svg { width: 32px; height: 32px; fill: var(--text); }
+    .hint { color: var(--muted); font-size: 13px; }
+    button {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 6px 12px;
+      cursor: pointer;
+    }
+    .layout {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 296px 1fr;
+      gap: 24px;
+      padding: 24px;
+    }
+    @media (max-width: 900px) {
+      .layout { grid-template-columns: 1fr; }
+    }
+    .avatar {
+      width: 296px;
+      max-width: 100%;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+    }
+    .name { font-size: 24px; font-weight: 700; margin: 16px 0 0; }
+    .login { font-size: 20px; font-weight: 300; color: var(--muted); margin: 0 0 12px; }
+    .bio { color: var(--text); margin-bottom: 16px; line-height: 1.5; }
+    .meta { color: var(--muted); font-size: 14px; display: grid; gap: 8px; }
+    .meta a { color: var(--link); text-decoration: none; }
+    .readme {
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 32px;
+      background: var(--bg);
+      min-width: 0;
+    }
+    .markdown-body { background: transparent !important; }
+    .markdown-body a { color: var(--link); }
+    .markdown-body table { display: table; width: 100%; }
+    .markdown-body img { background: transparent; }
+    html[data-theme="dark"] img[src*="gh-light-mode-only"] { display: none !important; }
+    html[data-theme="light"] img[src*="gh-dark-mode-only"] { display: none !important; }
+    html[data-theme="light"] .markdown-body {
+      color-scheme: light;
+      color: #1f2328;
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="brand">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/></svg>
+      AbrarSoul — profile preview
+    </div>
+    <div>
+      <span class="hint">Local preview · not live on GitHub yet</span>
+      &nbsp;
+      <button id="toggle" type="button">Light mode</button>
+    </div>
+  </div>
+  <div class="layout">
+    <aside>
+      <img class="avatar" src="https://avatars.githubusercontent.com/u/73701376?v=4" alt="Abrar Morshed" />
+      <h1 class="name">Abrar Morshed</h1>
+      <p class="login">AbrarSoul</p>
+      <p class="bio">Programmer | Researcher | M.Sc. in Computing Science</p>
+      <div class="meta">
+        <div>GPT-Lab (Tampere University)</div>
+        <div>Tampere, Finland</div>
+        <div><a href="https://abrarsoul.github.io/">abrarsoul.github.io</a></div>
+        <div><a href="mailto:abrar.morshed@tuni.fi">abrar.morshed@tuni.fi</a></div>
+      </div>
+    </aside>
+    <article class="readme markdown-body">
 <div align="center">
   <img src="./assets/header-dark.svg#gh-dark-mode-only" alt="Abrar Morshed — Project Researcher at GPT-Lab, Tampere University" width="100%" />
   <img src="./assets/header-light.svg#gh-light-mode-only" alt="Abrar Morshed — Project Researcher at GPT-Lab, Tampere University" width="100%" />
 </div>
 
-<br/>
-
+<p><br/></p>
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3500&pause=1200&color=818CF8&center=true&vCenter=true&width=740&height=46&lines=Building+AI+agents+for+software+engineering;Research+in+generative+AI+%26+NLP;Open+to+collaboration#gh-dark-mode-only" alt="Animated introduction" />
   <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3500&pause=1200&color=4F46E5&center=true&vCenter=true&width=740&height=46&lines=Building+AI+agents+for+software+engineering;Research+in+generative+AI+%26+NLP;Open+to+collaboration#gh-light-mode-only" alt="Animated introduction" />
@@ -24,33 +149,23 @@
   <a href="https://www.youtube.com/@AbrarMorshed-lx4df"><img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube"/></a>
 </div>
 
-<br/>
-
----
-
-### About
-
-I am a **Project Researcher** at [GPT-Lab](https://gpt-lab.eu), Tampere University, working on **AI agentic frameworks** and generative AI for software engineering. My current work includes autonomous agents for code security, LLM-powered research tools, and teaching software process practices with GitHub and GitLab.
-
-I hold an M.Sc. in Software, Web & Cloud from Tampere University, with four years of prior experience in MIS and backend development. I care about research that ships: systems that are useful, evaluable, and maintainable.
-
-```python
-class AbrarMorshed:
-    role = "Project Researcher @ GPT-Lab"
-    affiliation = "Tampere University, Finland"
-    focus = ["AI Agents", "Generative AI", "NLP", "Software Engineering"]
-    email = "abrar.morshed@tuni.fi"
-```
-
-**Now**
-- Researching agentic systems for software engineering at GPT-Lab
-- Building tools around code security, retrieval, and LLM workflows
-- Open to research collaboration and conversation
-
----
-
-### Toolkit
-
+<p><br/></p>
+<hr />
+<h3>About</h3>
+<p>I am a <strong>Project Researcher</strong> at <a href="https://gpt-lab.eu">GPT-Lab</a>, Tampere University, working on <strong>AI agentic frameworks</strong> and generative AI for software engineering. My current work includes autonomous agents for code security, LLM-powered research tools, and teaching software process practices with GitHub and GitLab.</p>
+<p>I hold an M.Sc. in Software, Web &amp; Cloud from Tampere University, with four years of prior experience in MIS and backend development. I care about research that ships: systems that are useful, evaluable, and maintainable.</p>
+<pre><code class="language-python">class AbrarMorshed:
+    role = &quot;Project Researcher @ GPT-Lab&quot;
+    affiliation = &quot;Tampere University, Finland&quot;
+    focus = [&quot;AI Agents&quot;, &quot;Generative AI&quot;, &quot;NLP&quot;, &quot;Software Engineering&quot;]
+    email = &quot;abrar.morshed@tuni.fi&quot;
+</code></pre>
+<p><strong>Now</strong><br />
+- Researching agentic systems for software engineering at GPT-Lab<br />
+- Building tools around code security, retrieval, and LLM workflows<br />
+- Open to research collaboration and conversation</p>
+<hr />
+<h3>Toolkit</h3>
 <div align="center">
   <img src="https://skillicons.dev/icons?i=py,java,js,ts,cpp,html,css,pytorch,nodejs,react,flask,mysql,docker,linux,github,gitlab,vscode,postman&theme=dark&perline=9#gh-dark-mode-only" alt="Tools and technologies" />
   <img src="https://skillicons.dev/icons?i=py,java,js,ts,cpp,html,css,pytorch,nodejs,react,flask,mysql,docker,linux,github,gitlab,vscode,postman&theme=light&perline=9#gh-light-mode-only" alt="Tools and technologies" />
@@ -60,10 +175,8 @@ class AbrarMorshed:
   <sub>Python · Java · JavaScript · TypeScript · C++ · R · PyTorch · React · Flask · Node.js · SQL · Docker</sub>
 </p>
 
----
-
-### Selected work
-
+<hr />
+<h3>Selected work</h3>
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -117,26 +230,20 @@ class AbrarMorshed:
   <a href="https://weather-update-1-nz0n.onrender.com">Weather dashboard</a>
 </p>
 
----
-
-### Publications
-
-**[Ultrasound-based AI for COVID-19 detection: a comprehensive review of public and private lung ultrasound datasets and studies](https://link.springer.com/article/10.1007/s11042-025-20802-5)**  
-*Multimedia Tools and Applications*, 2025 · first author  
-A systematic review of lung-ultrasound datasets and AI methods for COVID-19 detection.
-
-**[Innovative trend analysis technique with fuzzy logic and K-means clustering for identification of homogenous rainfall regions](https://doi.org/10.1016/j.qsa.2024.100227)**  
-*Quaternary Science Advances*, 2024  
-Long-term rainfall analysis over Bangladesh using fuzzy logic and clustering.
-
+<hr />
+<h3>Publications</h3>
+<p><strong><a href="https://link.springer.com/article/10.1007/s11042-025-20802-5">Ultrasound-based AI for COVID-19 detection: a comprehensive review of public and private lung ultrasound datasets and studies</a></strong><br />
+<em>Multimedia Tools and Applications</em>, 2025 · first author<br />
+A systematic review of lung-ultrasound datasets and AI methods for COVID-19 detection.</p>
+<p><strong><a href="https://doi.org/10.1016/j.qsa.2024.100227">Innovative trend analysis technique with fuzzy logic and K-means clustering for identification of homogenous rainfall regions</a></strong><br />
+<em>Quaternary Science Advances</em>, 2024<br />
+Long-term rainfall analysis over Bangladesh using fuzzy logic and clustering.</p>
 <p align="center">
   <a href="https://scholar.google.com/citations?user=XWAPaTkAAAAJ&hl=en">Google Scholar profile →</a>
 </p>
 
----
-
-### GitHub
-
+<hr />
+<h3>GitHub</h3>
 <div align="center">
   <img height="168" src="https://github-readme-stats.vercel.app/api?username=AbrarSoul&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=07070d&title_color=818cf8&icon_color=22d3ee&text_color=e2e8f0&ring_color=6366f1#gh-dark-mode-only" alt="GitHub statistics" />
   <img height="168" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbrarSoul&layout=compact&langs_count=8&hide_border=true&bg_color=07070d&title_color=818cf8&text_color=e2e8f0#gh-dark-mode-only" alt="Most used languages" />
@@ -159,12 +266,9 @@ Long-term rainfall analysis over Bangladesh using fuzzy logic and clustering.
   <img src="./github-contribution-grid-snake.svg#gh-light-mode-only" alt="GitHub contribution snake animation" />
 </div>
 
----
-
-### Let's talk
-
-Happy to talk about research, agentic systems, or a potential collaboration.
-
+<hr />
+<h3>Let's talk</h3>
+<p>Happy to talk about research, agentic systems, or a potential collaboration.</p>
 <p align="center">
   <a href="mailto:abrar.morshed@tuni.fi">abrar.morshed@tuni.fi</a>
   · Tampere, Finland
@@ -175,3 +279,24 @@ Happy to talk about research, agentic systems, or a potential collaboration.
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=AbrarSoul&color=6366f1&style=flat-square&label=profile+views" alt="Profile views" />
 </p>
+    </article>
+  </div>
+  <script>
+    const html = document.documentElement;
+    const btn = document.getElementById("toggle");
+    const setTheme = (theme) => {
+      html.dataset.theme = theme;
+      const dark = theme === "dark";
+      btn.textContent = dark ? "Light mode" : "Dark mode";
+      document.querySelectorAll("link[href*='github-markdown']").forEach((el) => el.remove());
+      const link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.href = dark
+        ? "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown-dark.min.css"
+        : "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown-light.min.css";
+      document.head.appendChild(link);
+    };
+    btn.addEventListener("click", () => setTheme(html.dataset.theme === "dark" ? "light" : "dark"));
+  </script>
+</body>
+</html>

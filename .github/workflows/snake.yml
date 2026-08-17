@@ -2,8 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    # Runs every 6 hours
-    - cron: '0 */6 * * *'
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -16,8 +15,8 @@ jobs:
       contents: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-      
+        uses: actions/checkout@v4
+
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
@@ -25,11 +24,11 @@ jobs:
           outputs: |
             github-contribution-grid-snake.svg
             github-contribution-grid-snake-dark.svg?palette=github-dark
-          
+
       - name: Commit and push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add github-contribution-grid-snake.svg
+          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
           git commit -m "Update snake animation" || exit 0
           git push
