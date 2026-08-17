@@ -1,13 +1,19 @@
 <div align="center">
-  <img src="./assets/header-dark.svg#gh-dark-mode-only" alt="Abrar Morshed — Project Researcher at GPT-Lab, Tampere University" width="100%" />
-  <img src="./assets/header-light.svg#gh-light-mode-only" alt="Abrar Morshed — Project Researcher at GPT-Lab, Tampere University" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" />
+    <img src="./assets/header-dark.svg" alt="Abrar Morshed — Project Researcher at GPT-Lab, Tampere University" width="100%" />
+  </picture>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3500&pause=1200&color=818CF8&center=true&vCenter=true&width=740&height=46&lines=Building+AI+agents+for+software+engineering;Research+in+generative+AI+%26+NLP;Open+to+collaboration#gh-dark-mode-only" alt="Animated introduction" />
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3500&pause=1200&color=4F46E5&center=true&vCenter=true&width=740&height=46&lines=Building+AI+agents+for+software+engineering;Research+in+generative+AI+%26+NLP;Open+to+collaboration#gh-light-mode-only" alt="Animated introduction" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3500&pause=1200&color=818CF8&center=true&vCenter=true&width=740&height=46&lines=Building+AI+agents+for+software+engineering;Research+in+generative+AI+%26+NLP;Open+to+collaboration" />
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3500&pause=1200&color=4F46E5&center=true&vCenter=true&width=740&height=46&lines=Building+AI+agents+for+software+engineering;Research+in+generative+AI+%26+NLP;Open+to+collaboration" />
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3500&pause=1200&color=818CF8&center=true&vCenter=true&width=740&height=46&lines=Building+AI+agents+for+software+engineering;Research+in+generative+AI+%26+NLP;Open+to+collaboration" alt="Animated introduction" />
+  </picture>
 </div>
 
 <div align="center">
@@ -52,8 +58,11 @@ class AbrarMorshed:
 ### Toolkit
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=py,java,js,ts,cpp,html,css,pytorch,nodejs,react,flask,mysql,docker,linux,github,gitlab,vscode,postman&theme=dark&perline=9#gh-dark-mode-only" alt="Tools and technologies" />
-  <img src="https://skillicons.dev/icons?i=py,java,js,ts,cpp,html,css,pytorch,nodejs,react,flask,mysql,docker,linux,github,gitlab,vscode,postman&theme=light&perline=9#gh-light-mode-only" alt="Tools and technologies" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,java,js,ts,cpp,html,css,pytorch,nodejs,react,flask,mysql,docker,linux,github,gitlab,vscode,postman&theme=dark&perline=9" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,java,js,ts,cpp,html,css,pytorch,nodejs,react,flask,mysql,docker,linux,github,gitlab,vscode,postman&theme=light&perline=9" />
+    <img src="https://skillicons.dev/icons?i=py,java,js,ts,cpp,html,css,pytorch,nodejs,react,flask,mysql,docker,linux,github,gitlab,vscode,postman&theme=dark&perline=9" alt="Tools and technologies" />
+  </picture>
 </div>
 
 <p align="center">
@@ -138,25 +147,40 @@ Long-term rainfall analysis over Bangladesh using fuzzy logic and clustering.
 ### GitHub
 
 <div align="center">
-  <img height="168" src="https://github-readme-stats.vercel.app/api?username=AbrarSoul&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=07070d&title_color=818cf8&icon_color=22d3ee&text_color=e2e8f0&ring_color=6366f1#gh-dark-mode-only" alt="GitHub statistics" />
-  <img height="168" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbrarSoul&layout=compact&langs_count=8&hide_border=true&bg_color=07070d&title_color=818cf8&text_color=e2e8f0#gh-dark-mode-only" alt="Most used languages" />
-  <img height="168" src="https://github-readme-stats.vercel.app/api?username=AbrarSoul&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=F8FAFC&title_color=4F46E5&icon_color=0891B2&text_color=1E293B&ring_color=4F46E5#gh-light-mode-only" alt="GitHub statistics" />
-  <img height="168" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbrarSoul&layout=compact&langs_count=8&hide_border=true&bg_color=F8FAFC&title_color=4F46E5&text_color=1E293B#gh-light-mode-only" alt="Most used languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=AbrarSoul&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=07070d&title_color=818cf8&icon_color=22d3ee&text_color=e2e8f0&ring_color=6366f1" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=AbrarSoul&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=F8FAFC&title_color=4F46E5&icon_color=0891B2&text_color=1E293B&ring_color=4F46E5" />
+    <img height="168" src="https://github-readme-stats.vercel.app/api?username=AbrarSoul&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=07070d&title_color=818cf8&icon_color=22d3ee&text_color=e2e8f0&ring_color=6366f1" alt="GitHub statistics" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=AbrarSoul&layout=compact&langs_count=8&hide_border=true&bg_color=07070d&title_color=818cf8&text_color=e2e8f0" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=AbrarSoul&layout=compact&langs_count=8&hide_border=true&bg_color=F8FAFC&title_color=4F46E5&text_color=1E293B" />
+    <img height="168" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbrarSoul&layout=compact&langs_count=8&hide_border=true&bg_color=07070d&title_color=818cf8&text_color=e2e8f0" alt="Most used languages" />
+  </picture>
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=AbrarSoul&hide_border=true&background=07070D&border=07070D&ring=6366F1&fire=22D3EE&currStreakLabel=818CF8&sideLabels=94A3B8&dates=64748B&currStreakNum=E2E8F0&sideNums=E2E8F0&stroke=1E293B#gh-dark-mode-only" alt="GitHub streak" />
-  <img src="https://streak-stats.demolab.com?user=AbrarSoul&hide_border=true&background=F8FAFC&ring=4F46E5&fire=0891B2&currStreakLabel=4F46E5&sideLabels=475569&dates=64748B&currStreakNum=0F172A&sideNums=0F172A&stroke=E2E8F0#gh-light-mode-only" alt="GitHub streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AbrarSoul&hide_border=true&background=07070D&border=07070D&ring=6366F1&fire=22D3EE&currStreakLabel=818CF8&sideLabels=94A3B8&dates=64748B&currStreakNum=E2E8F0&sideNums=E2E8F0&stroke=1E293B" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=AbrarSoul&hide_border=true&background=F8FAFC&ring=4F46E5&fire=0891B2&currStreakLabel=4F46E5&sideLabels=475569&dates=64748B&currStreakNum=0F172A&sideNums=0F172A&stroke=E2E8F0" />
+    <img src="https://streak-stats.demolab.com?user=AbrarSoul&hide_border=true&background=07070D&border=07070D&ring=6366F1&fire=22D3EE&currStreakLabel=818CF8&sideLabels=94A3B8&dates=64748B&currStreakNum=E2E8F0&sideNums=E2E8F0&stroke=1E293B" alt="GitHub streak" />
+  </picture>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AbrarSoul&bg_color=07070d&color=94a3b8&line=818cf8&point=22d3ee&area=true&hide_border=true#gh-dark-mode-only" alt="Contribution activity graph" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AbrarSoul&bg_color=F8FAFC&color=475569&line=4F46E5&point=0891B2&area=true&hide_border=true#gh-light-mode-only" alt="Contribution activity graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AbrarSoul&bg_color=07070d&color=94a3b8&line=818cf8&point=22d3ee&area=true&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AbrarSoul&bg_color=F8FAFC&color=475569&line=4F46E5&point=0891B2&area=true&hide_border=true" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=AbrarSoul&bg_color=07070d&color=94a3b8&line=818cf8&point=22d3ee&area=true&hide_border=true" alt="Contribution activity graph" />
+  </picture>
 </div>
 
 <div align="center">
-  <img src="./github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="GitHub contribution snake animation" />
-  <img src="./github-contribution-grid-snake.svg#gh-light-mode-only" alt="GitHub contribution snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./github-contribution-grid-snake.svg" />
+    <img src="./github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake animation" />
+  </picture>
 </div>
 
 ---

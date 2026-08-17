@@ -115,10 +115,8 @@ TEMPLATE = """<!DOCTYPE html>
     .markdown-body table {{ display: table; width: 100%; }}
     .markdown-body img {{ background: transparent; }}
     html[data-theme="light"] .markdown-body {{ color-scheme: light; color: #1f2328; }}
-
-    /* Preview-only: show one theme variant at a time */
-    html[data-theme="dark"] img[src*="gh-light-mode-only"] {{ display: none !important; }}
-    html[data-theme="light"] img[src*="gh-dark-mode-only"] {{ display: none !important; }}
+    picture {{ display: inline-block; }}
+    picture img {{ display: block; }}
   </style>
 </head>
 <body>
@@ -157,13 +155,27 @@ TEMPLATE = """<!DOCTYPE html>
     const mdTheme = document.getElementById("md-theme");
     const buttons = [...document.querySelectorAll(".theme-switch button")];
 
+    const applyPictures = (theme) => {{
+      const needle = theme === "dark" ? "prefers-color-scheme: dark" : "prefers-color-scheme: light";
+      document.querySelectorAll("picture").forEach((pic) => {{
+        const img = pic.querySelector("img");
+        if (!img) return;
+        const match = [...pic.querySelectorAll("source")].find((source) =>
+          (source.getAttribute("media") || "").includes(needle)
+        );
+        if (match) img.src = match.getAttribute("srcset");
+      }});
+    }};
+
     const setTheme = (theme) => {{
       html.dataset.theme = theme;
+      html.style.colorScheme = theme;
       localStorage.setItem("preview-theme", theme);
       mdTheme.href = theme === "dark"
         ? "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown-dark.min.css"
         : "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown-light.min.css";
       buttons.forEach((btn) => btn.classList.toggle("active", btn.dataset.theme === theme));
+      applyPictures(theme);
     }};
 
     buttons.forEach((btn) => btn.addEventListener("click", () => setTheme(btn.dataset.theme)));
