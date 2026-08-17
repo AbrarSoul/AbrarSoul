@@ -59,8 +59,8 @@ class AbrarMorshed:
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,java,js,ts,cpp,html,css,pytorch,nodejs,react,flask,mysql,docker,linux,github,gitlab,vscode,postman&theme=dark&perline=9" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,java,js,ts,cpp,html,css,pytorch,nodejs,react,flask,mysql,docker,linux,github,gitlab,vscode,postman&theme=light&perline=9" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py%2Cjava%2Cjs%2Cts%2Ccpp%2Chtml%2Ccss%2Cpytorch%2Cnodejs%2Creact%2Cflask%2Cmysql%2Cdocker%2Clinux%2Cgithub%2Cgitlab%2Cvscode%2Cpostman&amp;theme=dark&amp;perline=9" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py%2Cjava%2Cjs%2Cts%2Ccpp%2Chtml%2Ccss%2Cpytorch%2Cnodejs%2Creact%2Cflask%2Cmysql%2Cdocker%2Clinux%2Cgithub%2Cgitlab%2Cvscode%2Cpostman&amp;theme=light&amp;perline=9" />
     <img src="https://skillicons.dev/icons?i=py,java,js,ts,cpp,html,css,pytorch,nodejs,react,flask,mysql,docker,linux,github,gitlab,vscode,postman&theme=dark&perline=9" alt="Tools and technologies" />
   </picture>
 </div>
